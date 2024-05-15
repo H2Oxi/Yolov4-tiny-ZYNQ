@@ -1,0 +1,288 @@
+
+
+quantize_data:
+
+save to backbone/conv1
+Quantized to 16 bits: 0.0018, Quantization Error: 0.000004,Quantized to 59
+save to backbone/conv2
+Quantized to 16 bits: 0.0107, Quantization Error: 0.000010,Quantized to 350
+save to backbone/resblock_body1/conv1
+Quantized to 16 bits: 0.0073, Quantization Error: 0.000014,Quantized to 240
+save to backbone/resblock_body1/conv2
+Quantized to 16 bits: 0.0040, Quantization Error: 0.000010,Quantized to 132
+save to backbone/resblock_body1/conv3
+Quantized to 16 bits: 0.0058, Quantization Error: 0.000009,Quantized to 189
+save to backbone/resblock_body1/conv4
+Quantized to 16 bits: 0.0081, Quantization Error: 0.000004,Quantized to 264
+save to backbone/resblock_body2/conv1
+Quantized to 16 bits: 0.0058, Quantization Error: 0.000007,Quantized to 190
+save to backbone/resblock_body2/conv2
+Quantized to 16 bits: 0.0061, Quantization Error: 0.000006,Quantized to 199
+save to backbone/resblock_body2/conv3
+Quantized to 16 bits: 0.0036, Quantization Error: 0.000014,Quantized to 118
+save to backbone/resblock_body2/conv4
+Quantized to 16 bits: 0.0063, Quantization Error: 0.000011,Quantized to 205
+save to backbone/resblock_body3/conv1
+Quantized to 16 bits: 0.0040, Quantization Error: 0.000007,Quantized to 132
+save to backbone/resblock_body3/conv2
+Quantized to 16 bits: 0.0067, Quantization Error: 0.000012,Quantized to 220
+save to backbone/resblock_body3/conv3
+Quantized to 16 bits: 0.0039, Quantization Error: 0.000011,Quantized to 127
+save to backbone/resblock_body3/conv4
+Quantized to 16 bits: 0.0067, Quantization Error: 0.000005,Quantized to 218
+save to backbone/conv3
+Quantized to 16 bits: 0.0042, Quantization Error: 0.000003,Quantized to 138
+save to conv_for_P5
+Quantized to 16 bits: 0.0067, Quantization Error: 0.000001,Quantized to 219
+save to yoloheadP5/conv1
+Quantized to 16 bits: 0.0031, Quantization Error: 0.000015,Quantized to 100
+save to yoloheadP5/conv2
+Quantized to 16 bits: 0.0022, Quantization Error: 0.000004,Quantized to 73
+save to upsample/conv1
+Quantized to 16 bits: 0.0118, Quantization Error: 0.000014,Quantized to 387
+save to yoloheadP4/conv1
+Quantized to 16 bits: 0.0013, Quantization Error: 0.000005,Quantized to 42
+save to yoloheadP4/conv2
+Quantized to 16 bits: 0.0032, Quantization Error: 0.000003,Quantized to 104
+
+
+
+save to backbone/conv1
+Quantized to 15 bits: 0.0018, Quantization Error: 0.000026,Quantized to 29
+save to backbone/conv2
+Quantized to 15 bits: 0.0107, Quantization Error: 0.000010,Quantized to 175
+save to backbone/resblock_body1/conv1
+Quantized to 15 bits: 0.0073, Quantization Error: 0.000014,Quantized to 120
+save to backbone/resblock_body1/conv2
+Quantized to 15 bits: 0.0040, Quantization Error: 0.000010,Quantized to 66
+save to backbone/resblock_body1/conv3
+Quantized to 15 bits: 0.0057, Quantization Error: 0.000022,Quantized to 94
+save to backbone/resblock_body1/conv4
+Quantized to 15 bits: 0.0081, Quantization Error: 0.000004,Quantized to 132
+save to backbone/resblock_body2/conv1
+Quantized to 15 bits: 0.0058, Quantization Error: 0.000007,Quantized to 95
+save to backbone/resblock_body2/conv2
+Quantized to 15 bits: 0.0060, Quantization Error: 0.000025,Quantized to 99
+save to backbone/resblock_body2/conv3
+Quantized to 15 bits: 0.0036, Quantization Error: 0.000014,Quantized to 59
+save to backbone/resblock_body2/conv4
+Quantized to 15 bits: 0.0063, Quantization Error: 0.000019,Quantized to 103
+save to backbone/resblock_body3/conv1
+Quantized to 15 bits: 0.0040, Quantization Error: 0.000007,Quantized to 66
+save to backbone/resblock_body3/conv2
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000012,Quantized to 110
+save to backbone/resblock_body3/conv3
+Quantized to 15 bits: 0.0039, Quantization Error: 0.000020,Quantized to 64
+save to backbone/resblock_body3/conv4
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000005,Quantized to 109
+save to backbone/conv3
+Quantized to 15 bits: 0.0042, Quantization Error: 0.000003,Quantized to 69
+save to conv_for_P5
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000029,Quantized to 110
+save to yoloheadP5/conv1
+Quantized to 15 bits: 0.0031, Quantization Error: 0.000015,Quantized to 50
+save to yoloheadP5/conv2
+Quantized to 15 bits: 0.0022, Quantization Error: 0.000026,Quantized to 36
+save to upsample/conv1
+Quantized to 15 bits: 0.0118, Quantization Error: 0.000017,Quantized to 193
+save to yoloheadP4/conv1
+Quantized to 15 bits: 0.0013, Quantization Error: 0.000005,Quantized to 21
+save to yoloheadP4/conv2
+Quantized to 15 bits: 0.0032, Quantization Error: 0.000003,Quantized to 52
+
+
+bias and weights are both signed 16bits integer  
+
+save to backbone/conv1
+Quantized to 15 bits: 0.0018, Quantization Error: 0.000026,Quantized to 29
+weights range from -3712.0 to 3422.0
+bias range from -3712.0 to 3683.0
+save to backbone/conv2
+Quantized to 15 bits: 0.0107, Quantization Error: 0.000010,Quantized to 175
+weights range from -22400.0 to 14875.0
+bias range from -22400.0 to 22225.0
+save to backbone/resblock_body1/conv1
+Quantized to 15 bits: 0.0073, Quantization Error: 0.000014,Quantized to 120
+weights range from -15360.0 to 5520.0
+bias range from -15360.0 to 15240.0
+save to backbone/resblock_body1/conv2
+Quantized to 15 bits: 0.0040, Quantization Error: 0.000010,Quantized to 66
+weights range from -8250.0 to 8382.0
+bias range from -8448.0 to 8382.0
+save to backbone/resblock_body1/conv3
+Quantized to 15 bits: 0.0057, Quantization Error: 0.000022,Quantized to 94
+weights range from -10152.0 to 11938.0
+bias range from -12032.0 to 11938.0
+save to backbone/resblock_body1/conv4
+Quantized to 15 bits: 0.0081, Quantization Error: 0.000004,Quantized to 132
+weights range from -16896.0 to 9636.0
+bias range from -16896.0 to 16764.0
+save to backbone/resblock_body2/conv1
+Quantized to 15 bits: 0.0058, Quantization Error: 0.000007,Quantized to 95
+weights range from -5225.0 to 12065.0
+bias range from -12160.0 to 12065.0
+save to backbone/resblock_body2/conv2
+Quantized to 15 bits: 0.0060, Quantization Error: 0.000025,Quantized to 99
+weights range from -10197.0 to 12573.0
+bias range from -12672.0 to 12573.0
+save to backbone/resblock_body2/conv3
+Quantized to 15 bits: 0.0036, Quantization Error: 0.000014,Quantized to 59
+weights range from -7552.0 to 5251.0
+bias range from -7552.0 to 7493.0
+save to backbone/resblock_body2/conv4
+Quantized to 15 bits: 0.0063, Quantization Error: 0.000019,Quantized to 103
+weights range from -13184.0 to 11639.0
+bias range from -13184.0 to 13081.0
+save to backbone/resblock_body3/conv1
+Quantized to 15 bits: 0.0040, Quantization Error: 0.000007,Quantized to 66
+weights range from -4488.0 to 8382.0
+bias range from -8448.0 to 8382.0
+save to backbone/resblock_body3/conv2
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000012,Quantized to 110
+weights range from -9350.0 to 13970.0
+bias range from -14080.0 to 13970.0
+save to backbone/resblock_body3/conv3
+Quantized to 15 bits: 0.0039, Quantization Error: 0.000020,Quantized to 64
+weights range from -8192.0 to 7296.0
+bias range from -8192.0 to 8128.0
+save to backbone/resblock_body3/conv4
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000005,Quantized to 109
+weights range from -12535.0 to 13843.0
+bias range from -13952.0 to 13843.0
+save to backbone/conv3
+Quantized to 15 bits: 0.0042, Quantization Error: 0.000003,Quantized to 69
+weights range from -7176.0 to 8763.0
+bias range from -8832.0 to 8763.0
+save to conv_for_P5
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000029,Quantized to 110
+weights range from -9790.0 to 13970.0
+bias range from -14080.0 to 13970.0
+save to yoloheadP5/conv1
+Quantized to 15 bits: 0.0031, Quantization Error: 0.000015,Quantized to 50
+weights range from -6400.0 to 4500.0
+bias range from -6400.0 to 6350.0
+save to yoloheadP5/conv2
+Quantized to 15 bits: 0.0022, Quantization Error: 0.000026,Quantized to 36
+weights range from -4464.0 to 4572.0
+bias range from -4608.0 to 2340.0
+save to upsample/conv1
+Quantized to 15 bits: 0.0118, Quantization Error: 0.000017,Quantized to 193
+weights range from -12738.0 to 24511.0
+bias range from -24704.0 to 24511.0
+save to yoloheadP4/conv1
+Quantized to 15 bits: 0.0013, Quantization Error: 0.000005,Quantized to 21
+weights range from -2541.0 to 2646.0
+bias range from -2688.0 to 2667.0
+save to yoloheadP4/conv2
+Quantized to 15 bits: 0.0032, Quantization Error: 0.000003,Quantized to 52
+weights range from -6656.0 to 6292.0
+bias range from -6656.0 to 6604.0
+
+
+
+save to backbone/conv1
+Quantized to 15 bits: 0.0018, Quantization Error: 0.000026,Quantized to 29
+weights range from -3712.0 to 3422.0
+bias range from -3712.0 to 3683.0
+out_scale: 0.42529718174653897
+save to backbone/conv2
+Quantized to 15 bits: 0.0107, Quantization Error: 0.000010,Quantized to 175
+weights range from -22400.0 to 14875.0
+bias range from -22400.0 to 22225.0
+out_scale: 0.4670060975967099
+save to backbone/resblock_body1/conv1
+Quantized to 15 bits: 0.0073, Quantization Error: 0.000014,Quantized to 120
+weights range from -15360.0 to 5520.0
+bias range from -15360.0 to 15240.0
+out_scale: 0.47145088565332494
+save to backbone/resblock_body1/conv2
+Quantized to 15 bits: 0.0040, Quantization Error: 0.000010,Quantized to 66
+weights range from -8250.0 to 8382.0
+bias range from -8448.0 to 8382.0
+out_scale: 0.1581674666633321
+save to backbone/resblock_body1/conv3
+Quantized to 15 bits: 0.0057, Quantization Error: 0.000022,Quantized to 94
+weights range from -10152.0 to 11938.0
+bias range from -12032.0 to 11938.0
+out_scale: 0.1495790444183118
+save to backbone/resblock_body1/conv4
+Quantized to 15 bits: 0.0081, Quantization Error: 0.000004,Quantized to 132
+weights range from -16896.0 to 9636.0
+bias range from -16896.0 to 16764.0
+out_scale: 0.22750419823185988
+save to backbone/resblock_body2/conv1
+Quantized to 15 bits: 0.0058, Quantization Error: 0.000007,Quantized to 95
+weights range from -5225.0 to 12065.0
+bias range from -12160.0 to 12065.0
+out_scale: 0.13086967311312614
+save to backbone/resblock_body2/conv2
+Quantized to 15 bits: 0.0060, Quantization Error: 0.000025,Quantized to 99
+weights range from -10197.0 to 12573.0
+bias range from -12672.0 to 12573.0
+out_scale: 0.12475555452413706
+save to backbone/resblock_body2/conv3
+Quantized to 15 bits: 0.0036, Quantization Error: 0.000014,Quantized to 59
+weights range from -7552.0 to 5251.0
+bias range from -7552.0 to 7493.0
+out_scale: 0.1386796936065577
+save to backbone/resblock_body2/conv4
+Quantized to 15 bits: 0.0063, Quantization Error: 0.000019,Quantized to 103
+weights range from -13184.0 to 11639.0
+bias range from -13184.0 to 13081.0
+out_scale: 0.19216086818095338
+save to backbone/resblock_body3/conv1
+Quantized to 15 bits: 0.0040, Quantization Error: 0.000007,Quantized to 66
+weights range from -4488.0 to 8382.0
+bias range from -8448.0 to 8382.0
+out_scale: 0.1551694381983074
+save to backbone/resblock_body3/conv2
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000012,Quantized to 110
+weights range from -9350.0 to 13970.0
+bias range from -14080.0 to 13970.0
+out_scale: 0.15570913355376756
+save to backbone/resblock_body3/conv3
+Quantized to 15 bits: 0.0039, Quantization Error: 0.000020,Quantized to 64
+weights range from -8192.0 to 7296.0
+bias range from -8192.0 to 8128.0
+out_scale: 0.15381745251629375
+save to backbone/resblock_body3/conv4
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000005,Quantized to 109
+weights range from -12535.0 to 13843.0
+bias range from -13952.0 to 13843.0
+out_scale: 0.20950105715775982
+save to backbone/conv3
+Quantized to 15 bits: 0.0042, Quantization Error: 0.000003,Quantized to 69
+weights range from -7176.0 to 8763.0
+bias range from -8832.0 to 8763.0
+out_scale: 0.11944727496590063
+save to conv_for_P5
+Quantized to 15 bits: 0.0067, Quantization Error: 0.000029,Quantized to 110
+weights range from -9790.0 to 13970.0
+bias range from -14080.0 to 13970.0
+out_scale: 0.13855031879628424
+save to yoloheadP5/conv1
+Quantized to 15 bits: 0.0031, Quantization Error: 0.000015,Quantized to 50
+weights range from -6400.0 to 4500.0
+bias range from -6400.0 to 6350.0
+out_scale: 0.14566524426045618
+save to yoloheadP5/conv2
+Quantized to 15 bits: 0.0022, Quantization Error: 0.000026,Quantized to 36
+weights range from -4464.0 to 4572.0
+bias range from -4608.0 to 2340.0
+out_scale: 0.2477448403793675
+save to upsample/conv1
+Quantized to 15 bits: 0.0118, Quantization Error: 0.000017,Quantized to 193
+weights range from -12738.0 to 24511.0
+bias range from -24704.0 to 24511.0
+out_scale: 0.10773102614317308
+save to yoloheadP4/conv1
+Quantized to 15 bits: 0.0013, Quantization Error: 0.000005,Quantized to 21
+weights range from -2541.0 to 2646.0
+bias range from -2688.0 to 2667.0
+out_scale: 0.14551079271241243
+save to yoloheadP4/conv2
+Quantized to 15 bits: 0.0032, Quantization Error: 0.000003,Quantized to 52
+weights range from -6656.0 to 6292.0
+bias range from -6656.0 to 6604.0
+out_scale: 0.18818409490150942
+
