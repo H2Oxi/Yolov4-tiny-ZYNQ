@@ -1,0 +1,16 @@
+
+x 0 0 0=127(x_offset:0)w 0 0 1 1=15(w_offset:4)out[0]=1905
+x 1 0 0=127(x_offset:173056)w 0 1 1 1=32(w_offset:13)out[0]=5969
+x 2 0 0=127(x_offset:346112)w 0 2 1 1=58(w_offset:22)out[0]=13335
+x 0 0 1=127(x_offset:1)w 0 0 1 2=-3(w_offset:5)out[0]=12954
+x 1 0 1=127(x_offset:173057)w 0 1 1 2=-5(w_offset:14)out[0]=12319
+x 2 0 1=127(x_offset:346113)w 0 2 1 2=9(w_offset:23)out[0]=13462
+x 0 1 0=127(x_offset:416)w 0 0 2 1=-3(w_offset:7)out[0]=13081
+x 1 1 0=127(x_offset:173472)w 0 1 2 1=-2(w_offset:16)out[0]=12827
+x 2 1 0=127(x_offset:346528)w 0 2 2 1=6(w_offset:25)out[0]=13589
+x 0 1 1=127(x_offset:417)w 0 0 2 2=5(w_offset:8)out[0]=14224
+x 1 1 1=127(x_offset:173473)w 0 1 2 2=-2(w_offset:17)out[0]=13970
+x 2 1 1=127(x_offset:346529)w 0 2 2 2=-3(w_offset:26)out[0]=13589
+out[0]=13589out[0]=1139out[0]=2
+
+

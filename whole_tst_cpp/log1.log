@@ -1,0 +1,222 @@
+==12292== Memcheck, a memory error detector
+==12292== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==12292== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==12292== Command: ./tst4
+==12292== Parent PID: 12252
+==12292== 
+==12292== Invalid read of size 1
+==12292==    at 0x10CB79: upsampling::forward(signed char*, signed char*) (tst4.cpp:529)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x533b4c0 is 0 bytes after a block of size 21,632 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D4CA: up_sample::forward(signed char*, signed char*) (tst4.cpp:605)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid read of size 1
+==12292==    at 0x10CBDA: upsampling::forward(signed char*, signed char*) (tst4.cpp:530)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x533b4c0 is 0 bytes after a block of size 21,632 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D4CA: up_sample::forward(signed char*, signed char*) (tst4.cpp:605)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid read of size 1
+==12292==    at 0x10CC3B: upsampling::forward(signed char*, signed char*) (tst4.cpp:531)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x533b4c0 is 0 bytes after a block of size 21,632 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D4CA: up_sample::forward(signed char*, signed char*) (tst4.cpp:605)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid read of size 1
+==12292==    at 0x10CC9F: upsampling::forward(signed char*, signed char*) (tst4.cpp:532)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x533b4c0 is 0 bytes after a block of size 21,632 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D4CA: up_sample::forward(signed char*, signed char*) (tst4.cpp:605)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid write of size 1
+==12292==    at 0x10CBDD: upsampling::forward(signed char*, signed char*) (tst4.cpp:530)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x5fc5260 is 0 bytes after a block of size 86,528 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D9AB: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:652)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid write of size 1
+==12292==    at 0x10CCA2: upsampling::forward(signed char*, signed char*) (tst4.cpp:532)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x5fc5261 is 1 bytes after a block of size 86,528 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D9AB: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:652)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid write of size 1
+==12292==    at 0x10CB7C: upsampling::forward(signed char*, signed char*) (tst4.cpp:529)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x5fc5260 is 0 bytes after a block of size 86,528 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D9AB: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:652)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid write of size 1
+==12292==    at 0x10CC3E: upsampling::forward(signed char*, signed char*) (tst4.cpp:531)
+==12292==    by 0x10D553: up_sample::forward(signed char*, signed char*) (tst4.cpp:610)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x5fc5261 is 1 bytes after a block of size 86,528 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D9AB: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:652)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid read of size 1
+==12292==    at 0x10E1B4: concatenate_P5_feat1(signed char*, signed char*, signed char*) (tst4.cpp:792)
+==12292==    by 0x10D9F8: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:659)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x5fc5260 is 0 bytes after a block of size 86,528 alloc'd
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D9AB: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:652)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Conditional jump or move depends on uninitialised value(s)
+==12292==    at 0x10DEF0: tensor2int8(int*, signed char*, int, int, int) (tst4.cpp:756)
+==12292==    by 0x10B6B8: basic_conv::forward(signed char*, signed char*) (tst4.cpp:331)
+==12292==    by 0x10CEE1: yolo_head::forward(signed char*, signed char*) (tst4.cpp:566)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Conditional jump or move depends on uninitialised value(s)
+==12292==    at 0x10DF4C: tensor2int8(int*, signed char*, int, int, int) (tst4.cpp:758)
+==12292==    by 0x10B6B8: basic_conv::forward(signed char*, signed char*) (tst4.cpp:331)
+==12292==    by 0x10CEE1: yolo_head::forward(signed char*, signed char*) (tst4.cpp:566)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Conditional jump or move depends on uninitialised value(s)
+==12292==    at 0x10AE30: leakyrelu::forward(signed char*, int*) (tst4.cpp:202)
+==12292==    by 0x10B74D: basic_conv::forward(signed char*, signed char*) (tst4.cpp:342)
+==12292==    by 0x10CEE1: yolo_head::forward(signed char*, signed char*) (tst4.cpp:566)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Conditional jump or move depends on uninitialised value(s)
+==12292==    at 0x10DEF0: tensor2int8(int*, signed char*, int, int, int) (tst4.cpp:756)
+==12292==    by 0x10B795: basic_conv::forward(signed char*, signed char*) (tst4.cpp:345)
+==12292==    by 0x10CEE1: yolo_head::forward(signed char*, signed char*) (tst4.cpp:566)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Conditional jump or move depends on uninitialised value(s)
+==12292==    at 0x10DF4C: tensor2int8(int*, signed char*, int, int, int) (tst4.cpp:758)
+==12292==    by 0x10B795: basic_conv::forward(signed char*, signed char*) (tst4.cpp:345)
+==12292==    by 0x10CEE1: yolo_head::forward(signed char*, signed char*) (tst4.cpp:566)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Conditional jump or move depends on uninitialised value(s)
+==12292==    at 0x10DEF0: tensor2int8(int*, signed char*, int, int, int) (tst4.cpp:756)
+==12292==    by 0x10D28F: yolo_head::forward(signed char*, signed char*) (tst4.cpp:582)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Conditional jump or move depends on uninitialised value(s)
+==12292==    at 0x10DF4C: tensor2int8(int*, signed char*, int, int, int) (tst4.cpp:758)
+==12292==    by 0x10D28F: yolo_head::forward(signed char*, signed char*) (tst4.cpp:582)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid free() / delete / delete[] / realloc()
+==12292==    at 0x484E46F: operator delete[](void*) (vg_replace_malloc.c:1330)
+==12292==    by 0x10DA5B: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:663)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x54b46b0 is 0 bytes inside a block of size 259,584 free'd
+==12292==    at 0x484E46F: operator delete[](void*) (vg_replace_malloc.c:1330)
+==12292==    by 0x10CEFA: yolo_head::forward(signed char*, signed char*) (tst4.cpp:567)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Block was alloc'd at
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D9DA: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:658)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== Invalid read of size 1
+==12292==    at 0x10ABE6: conv_2d::padding_forward(signed char*, int*) (tst4.cpp:136)
+==12292==    by 0x10B60E: basic_conv::forward(signed char*, signed char*) (tst4.cpp:321)
+==12292==    by 0x10CEE1: yolo_head::forward(signed char*, signed char*) (tst4.cpp:566)
+==12292==    by 0x10DA7F: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:665)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Address 0x5160a30 is 0 bytes inside a block of size 43,264 free'd
+==12292==    at 0x484E46F: operator delete[](void*) (vg_replace_malloc.c:1330)
+==12292==    by 0x10D4FC: up_sample::forward(signed char*, signed char*) (tst4.cpp:607)
+==12292==    by 0x10D9D0: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:653)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292==  Block was alloc'd at
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10D8F9: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:645)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== 
+==12292== More than 10000000 total errors detected.  I'm not reporting any more.
+==12292== Final error counts will be inaccurate.  Go fix your program!
+==12292== Rerun with --error-limit=no to disable this cutoff.  Note
+==12292== that errors may occur in your program without prior warning from
+==12292== Valgrind, because errors are no longer being displayed.
+==12292== 
+==12292== 
+==12292== HEAP SUMMARY:
+==12292==     in use at exit: 39,000 bytes in 4 blocks
+==12292==   total heap usage: 532 allocs, 531 frees, 72,366,219 bytes allocated
+==12292== 
+==12292== 300 bytes in 1 blocks are definitely lost in loss record 1 of 4
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10CF24: yolo_head::forward(signed char*, signed char*) (tst4.cpp:569)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== 300 bytes in 1 blocks are definitely lost in loss record 2 of 4
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10CF24: yolo_head::forward(signed char*, signed char*) (tst4.cpp:569)
+==12292==    by 0x10DA7F: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:665)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== 19,200 bytes in 1 blocks are definitely lost in loss record 3 of 4
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10CF83: yolo_head::forward(signed char*, signed char*) (tst4.cpp:570)
+==12292==    by 0x10DA48: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:662)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== 19,200 bytes in 1 blocks are definitely lost in loss record 4 of 4
+==12292==    at 0x484A703: operator new[](unsigned long) (vg_replace_malloc.c:725)
+==12292==    by 0x10CF83: yolo_head::forward(signed char*, signed char*) (tst4.cpp:570)
+==12292==    by 0x10DA7F: yolo_body::forward(signed char*, signed char*, signed char*) (tst4.cpp:665)
+==12292==    by 0x10E39B: main (tst4.cpp:823)
+==12292== 
+==12292== LEAK SUMMARY:
+==12292==    definitely lost: 39,000 bytes in 4 blocks
+==12292==    indirectly lost: 0 bytes in 0 blocks
+==12292==      possibly lost: 0 bytes in 0 blocks
+==12292==    still reachable: 0 bytes in 0 blocks
+==12292==         suppressed: 0 bytes in 0 blocks
+==12292== 
+==12292== Use --track-origins=yes to see where uninitialised values come from
+==12292== For lists of detected and suppressed errors, rerun with: -s
+==12292== ERROR SUMMARY: 10000004 errors from 22 contexts (suppressed: 0 from 0)
